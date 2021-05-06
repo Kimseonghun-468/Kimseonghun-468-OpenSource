@@ -10,7 +10,7 @@
 관절 포인트 좌표를 통해 모델을 학습합니다. (Model.ipynb)
 1. 전처리 단계에서 관절 포인트 좌표를 좌표간의 각도로 변환합니다.
 2. 데이터를 정규화 하고, RandomForest, MLP, GradientBoost, SVM, Bagging Classifier를 통해 모델을 10-Fold CrossValidation 합니다.
-3. 5개의 분류기중 가장 높은 성능의 분류기를 통해 학습을 진행합니다.
+3. 학습이 잘 진행 되는지 확인 후, DNN 모델 구현
 
 - 모델을 통해 결과 출력
 
